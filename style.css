@@ -1,0 +1,48 @@
+/* Css Reset */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    /* border:1px red solid; */
+}
+
+header{
+    /* border:1px red solid; */
+    text-align:center;
+    background-color:#c8ffad;
+    padding:50px;
+}
+
+header h1{
+    font-size:5em;
+}
+
+header p{
+    font-size:3em;
+}
+
+.container{
+    /* border:1px blue solid; */
+    margin-top:50px;
+    text-align:center;
+    height:50%;
+    padding:100px;
+}
+
+form input{
+    display:block;
+    margin:auto;
+    padding:0 50px;
+    margin-bottom:10px;
+    border:none;
+}
+
+form input[type="submit"]{
+    padding:0 111px;
+}
+
